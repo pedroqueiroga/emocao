@@ -1,0 +1,9 @@
+*~
+\#*\#
+.\#*
+*_flymake.*
+
+processed_files/
+
+.pyc
+__pycache__/
