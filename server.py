@@ -61,6 +61,7 @@ class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
     def __emotion(self, resp):
         emotions = dict()
+        print(resp)
         for emotion in resp:
             emotions[emotion['emotion']] = emotion['score']
         sorted_emotions = sorted(
